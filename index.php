@@ -30,7 +30,7 @@
       <div class="product-title">Broccoli</div>
       <p class="product-description">Fresh broccoli.</p>
     </div>
-    <div class="product-price">4.99</div>
+    <div class="product-price">1</div>
     <div class="product-quantity">
       <input type="number" value="0" min="1">
     </div>
@@ -50,7 +50,7 @@
       <div class="product-title">Cabbage</div>
       <p class="product-description">Fresh Cabbage.</p>
     </div>
-    <div class="product-price">5.99</div>
+    <div class="product-price">1</div>
     <div class="product-quantity">
       <input type="number" value="0" min="1">
     </div>
@@ -68,12 +68,12 @@
       <div class="totals-value" id="cart-subtotal">0</div>
     </div>
     <div class="totals-item">
-      <label>Tax (5%)</label>
-      <div class="totals-value" id="cart-tax">0</div>
+      <!-- <label>Tax (5%)</label>
+      <div class="totals-value" id="cart-tax">0</div> -->
     </div>
     <div class="totals-item">
-      <label>Shipping</label>
-      <div class="totals-value" id="cart-shipping">5.00</div>
+      <!-- <label>Shipping</label>
+      <div class="totals-value" id="cart-shipping">5.00</div> -->
     </div>
     <div class="totals-item totals-item-total">
       <label>Grand Total</label>
@@ -86,8 +86,8 @@
 </div>
 <script>
 /* Set rates + misc */
-var taxRate = 0.05;
-var shippingRate = 5.00; 
+var taxRate = 0.00;
+var shippingRate = 0.00; 
 var fadeTime = 300;
 
 
